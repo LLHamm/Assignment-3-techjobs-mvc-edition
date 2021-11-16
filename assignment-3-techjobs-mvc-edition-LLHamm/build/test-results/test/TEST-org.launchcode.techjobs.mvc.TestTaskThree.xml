@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.mvc.TestTaskThree" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-11-16T01:20:17" hostname="DESKTOP-30U0E25" time="0.498">
+  <properties/>
+  <testcase name="testDisplaySearchResultsMethodExists()" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.018"/>
+  <testcase name="testDisplaySearchResultsCallsFindByColumnAndValue(JobData)" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.333"/>
+  <testcase name="testDisplaySearchResultsUsesCorrectAnnotation()" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.015"/>
+  <testcase name="testDisplaySearchResultsHasCorrectParameterNames()" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.001"/>
+  <testcase name="testDisplaySearchResultsHasCorrectParameterAnnotations()" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.002"/>
+  <testcase name="testDisplaySearchResultsSetsModelAtts()" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.001"/>
+  <testcase name="testDisplaySearchResultsCallsFindAll(JobData)" classname="org.launchcode.techjobs.mvc.TestTaskThree" time="0.122"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

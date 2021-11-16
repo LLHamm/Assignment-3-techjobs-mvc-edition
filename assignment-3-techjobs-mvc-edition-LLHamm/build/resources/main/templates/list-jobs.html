@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+</head>
+<body>
+
+<--! generates user view at /list/values?column=location&value... -->
+<div th:replace="fragments :: page-header"></div>
+
+<div class="container body-content">
+
+    <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
+</div>
+<!-- TODO #1 - Use a loop to display job results in a table. -->
+<table th:replace="fragments :: displayJobResults"></table>
+
+</body>
+</html>

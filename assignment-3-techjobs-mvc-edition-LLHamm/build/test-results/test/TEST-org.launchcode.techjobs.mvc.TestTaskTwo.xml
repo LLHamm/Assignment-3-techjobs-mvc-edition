@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.mvc.TestTaskTwo" tests="6" skipped="0" failures="4" errors="0" timestamp="2021-11-16T01:20:13" hostname="DESKTOP-30U0E25" time="0.395">
+  <properties/>
+  <testcase name="testJobListingLoads()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.058"/>
+  <testcase name="testViewAllLinkExists()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.193"/>
+  <testcase name="testJobListingDisplaysAllJobFields()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.039">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskTwo.testJobListingDisplaysAllJobFields(TestTaskTwo.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testJobListingDisplaysAllRelevantJobs()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.025">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskTwo.testJobListingDisplaysAllRelevantJobs(TestTaskTwo.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testJobListingUsesCSSClass()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.02">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskTwo.testJobListingUsesCSSClass(TestTaskTwo.java:47)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testJobListingUsesTable()" classname="org.launchcode.techjobs.mvc.TestTaskTwo" time="0.033">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskTwo.testJobListingUsesTable(TestTaskTwo.java:37)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2021-11-15 19:20:13.773  INFO 20016 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.launchcode.techjobs.mvc.TestTaskTwo], using SpringBootContextLoader
+2021-11-15 19:20:13.776  INFO 20016 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.launchcode.techjobs.mvc.TestTaskTwo]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-15 19:20:13.777  INFO 20016 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.launchcode.techjobs.mvc.TestTaskTwo]: TestTaskTwo does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-15 19:20:13.790  INFO 20016 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.launchcode.techjobs.mvc.Application for test class org.launchcode.techjobs.mvc.TestTaskTwo
+2021-11-15 19:20:13.799  INFO 20016 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-11-15 19:20:13.801  INFO 20016 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4df3de, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e0ed06b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@29a7afcf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@762bb750, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19177948, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11927f89, org.springframework.test.context.event.EventPublishingTestExecutionListener@55f73a3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2e65d56f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c1a24d2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@ef67cef, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@70cac4f9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7084a922, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2d653f54]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /list/jobs
+       Parameters = {column=[coreCompetency], value=[Ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.ListController
+           Method = org.launchcode.techjobs.mvc.controllers.ListController#listJobsByColumnAndValue(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = list-jobs
+             View = null
+        Attribute = title
+            value = Jobs with Skill: Ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Skill: Ruby</title>
+</head>
+<body>
+
+<--! generates user view at /list/values?column=location&value... -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Skill: Ruby</h1>
+</div>
+<!-- TODO #1 - Use a loop to display job results in a table. -->
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /list/jobs
+       Parameters = {column=[coreCompetency], value=[Ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.ListController
+           Method = org.launchcode.techjobs.mvc.controllers.ListController#listJobsByColumnAndValue(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = list-jobs
+             View = null
+        Attribute = title
+            value = Jobs with Skill: Ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Skill: Ruby</title>
+</head>
+<body>
+
+<--! generates user view at /list/values?column=location&value... -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Skill: Ruby</h1>
+</div>
+<!-- TODO #1 - Use a loop to display job results in a table. -->
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /list/jobs
+       Parameters = {column=[coreCompetency], value=[Ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.ListController
+           Method = org.launchcode.techjobs.mvc.controllers.ListController#listJobsByColumnAndValue(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = list-jobs
+             View = null
+        Attribute = title
+            value = Jobs with Skill: Ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Skill: Ruby</title>
+</head>
+<body>
+
+<--! generates user view at /list/values?column=location&value... -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Skill: Ruby</h1>
+</div>
+<!-- TODO #1 - Use a loop to display job results in a table. -->
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /list/jobs
+       Parameters = {column=[coreCompetency], value=[Ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.ListController
+           Method = org.launchcode.techjobs.mvc.controllers.ListController#listJobsByColumnAndValue(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = list-jobs
+             View = null
+        Attribute = title
+            value = Jobs with Skill: Ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Skill: Ruby</title>
+</head>
+<body>
+
+<--! generates user view at /list/values?column=location&value... -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Skill: Ruby</h1>
+</div>
+<!-- TODO #1 - Use a loop to display job results in a table. -->
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+]]></system-err>
+</testsuite>

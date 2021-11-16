@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.mvc.TestTaskFour" tests="6" skipped="0" failures="5" errors="0" timestamp="2021-11-16T01:19:47" hostname="DESKTOP-30U0E25" time="26.454">
+  <properties/>
+  <testcase name="testFourthSearchTestCase()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="26.16">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskFour.testFourthSearchTestCase(TestTaskFour.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testSecondSearchTestCase()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="0.048">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.doesNotExist(XpathExpectationsHelper.java:132)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$doesNotExist$3(XpathResultMatchers.java:109)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskFour.testSecondSearchTestCase(TestTaskFour.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testSearchResultsLoad()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="0.022"/>
+  <testcase name="testFifthSearchTestCase()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="0.035">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskFour.testFifthSearchTestCase(TestTaskFour.java:97)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testFirstSearchTestCase()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="0.118">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskFour.testFirstSearchTestCase(TestTaskFour.java:43)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testThirdSearchTestCase()" classname="org.launchcode.techjobs.mvc.TestTaskFour" time="0.044">
+    <failure message="org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException; lineNumber: 14; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.test.util.XpathExpectationsHelper.parseXmlByteArray(XpathExpectationsHelper.java:237)
+	at org.springframework.test.util.XpathExpectationsHelper.evaluateXpath(XpathExpectationsHelper.java:219)
+	at org.springframework.test.util.XpathExpectationsHelper.exists(XpathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.XpathResultMatchers.lambda$exists$2(XpathResultMatchers.java:99)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)
+	at org.launchcode.techjobs.mvc.TestTaskFour.testThirdSearchTestCase(TestTaskFour.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <system-out><![CDATA[19:19:40.776 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:19:40.814 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:19:40.959 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.launchcode.techjobs.mvc.TestTaskFour] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:19:40.993 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.launchcode.techjobs.mvc.TestTaskFour], using SpringBootContextLoader
+19:19:41.001 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.launchcode.techjobs.mvc.TestTaskFour]: class path resource [org/launchcode/techjobs/mvc/TestTaskFour-context.xml] does not exist
+19:19:41.002 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.launchcode.techjobs.mvc.TestTaskFour]: class path resource [org/launchcode/techjobs/mvc/TestTaskFourContext.groovy] does not exist
+19:19:41.003 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.launchcode.techjobs.mvc.TestTaskFour]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:19:41.004 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.launchcode.techjobs.mvc.TestTaskFour]: TestTaskFour does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:19:41.176 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.launchcode.techjobs.mvc.TestTaskFour]
+19:19:41.353 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\thela\IdeaProjects\assignment-3-techjobs-mvc-edition-LLHamm\build\classes\java\main\org\launchcode\techjobs\mvc\Application.class]
+19:19:41.358 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.launchcode.techjobs.mvc.Application for test class org.launchcode.techjobs.mvc.TestTaskFour
+19:19:41.747 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [org.launchcode.techjobs.mvc.TestTaskFour]: using defaults.
+19:19:41.749 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:19:41.795 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+19:19:41.801 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:19:41.802 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e1bd433, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29cd5be6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3be5411, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f7910b6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ff3ed26, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2ca29955, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d4d5e0c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a2619b3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a4c570c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@21c1921, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35168a50, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4f87e6c0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17ab2c0b]
+19:19:41.814 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2e877577 testClass = TestTaskFour, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7d9352e4 testClass = TestTaskFour, locations = '{}', classes = '{class org.launchcode.techjobs.mvc.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1884c43, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@258c6afa, [ImportsContextCustomizer@5d19f92c key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2decf26e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@49bd03bb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1f465cf2, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@3fbc5993], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+19:19:41.931 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.0)
+
+2021-11-15 19:19:42.623  INFO 20016 --- [    Test worker] o.launchcode.techjobs.mvc.TestTaskFour   : Starting TestTaskFour using Java 14.0.2 on DESKTOP-30U0E25 with PID 20016 (started by thela in C:\Users\thela\IdeaProjects\assignment-3-techjobs-mvc-edition-LLHamm)
+2021-11-15 19:19:42.636  INFO 20016 --- [    Test worker] o.launchcode.techjobs.mvc.TestTaskFour   : No active profile set, falling back to default profiles: default
+2021-11-15 19:19:46.252  INFO 20016 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-15 19:19:47.165  INFO 20016 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-15 19:19:47.166  INFO 20016 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-15 19:19:47.169  INFO 20016 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-15 19:19:47.225  INFO 20016 --- [    Test worker] o.launchcode.techjobs.mvc.TestTaskFour   : Started TestTaskFour in 5.269 seconds (JVM running for 8.143)
+2021-11-15 19:19:47.228  INFO 20016 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-11-15 19:19:47.239  INFO 20016 --- [    Test worker] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /search/results
+       Parameters = {searchType=[all], searchTerm=[ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.SearchController
+           Method = org.launchcode.techjobs.mvc.controllers.SearchController#displaySearchResults(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = search
+             View = null
+        Attribute = title
+            value = Jobs with All: ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+, 
+ID: 79
+Name: Ruby specialist
+Employer: LaunchCode
+Location: Saint Louis
+Position Type: Web - Back End
+Core Competency: JavaScript
+]
+        Attribute = columns
+            value = {all=All, positionType=Position Type, employer=Employer, coreCompetency=Skill, location=Location}
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with All: ruby</title>
+</head>
+<body>
+
+<--! displays search results & renders the form -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With All: Ruby</h1>
+
+    <form action="/search/results" method="post">
+        <h2>Search by:</h2>
+
+        <p>
+            <span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="all"
+                        value="all" checked="checked"/>
+                <label for="all">All</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="positionType"
+                        value="positionType"/>
+                <label for="positionType">Position Type</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="employer"
+                        value="employer"/>
+                <label for="employer">Employer</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="coreCompetency"
+                        value="coreCompetency"/>
+                <label for="coreCompetency">Skill</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="location"
+                        value="location"/>
+                <label for="location">Location</label>
+            </span>
+
+        </p>
+
+        <p>
+            <label for="searchTerm">Keyword:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </p>
+
+        <input type="submit" value="Search"/>
+    </form>
+
+    <hr/>
+
+
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+
+
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Ruby specialist</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>LaunchCode</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Saint Louis</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Back End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>JavaScript</td>
+            </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /search/results
+       Parameters = {searchType=[location], searchTerm=[chicago]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.SearchController
+           Method = org.launchcode.techjobs.mvc.controllers.SearchController#displaySearchResults(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = search
+             View = null
+        Attribute = title
+            value = Jobs with Location: chicago
+        Attribute = jobs
+            value = []
+        Attribute = columns
+            value = {all=All, positionType=Position Type, employer=Employer, coreCompetency=Skill, location=Location}
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Location: chicago</title>
+</head>
+<body>
+
+<--! displays search results & renders the form -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Location: Chicago</h1>
+
+    <form action="/search/results" method="post">
+        <h2>Search by:</h2>
+
+        <p>
+            <span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="all"
+                        value="all" checked="checked"/>
+                <label for="all">All</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="positionType"
+                        value="positionType"/>
+                <label for="positionType">Position Type</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="employer"
+                        value="employer"/>
+                <label for="employer">Employer</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="coreCompetency"
+                        value="coreCompetency"/>
+                <label for="coreCompetency">Skill</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="location"
+                        value="location"/>
+                <label for="location">Location</label>
+            </span>
+
+        </p>
+
+        <p>
+            <label for="searchTerm">Keyword:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </p>
+
+        <input type="submit" value="Search"/>
+    </form>
+
+    <hr/>
+
+
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+
+
+
+
+</div>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /search/results
+       Parameters = {searchType=[skill], searchTerm=[ruby]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.SearchController
+           Method = org.launchcode.techjobs.mvc.controllers.SearchController#displaySearchResults(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = search
+             View = null
+        Attribute = title
+            value = Jobs with null: ruby
+        Attribute = jobs
+            value = [
+ID: 3
+Name: Junior Web Developer
+Employer: Cozy
+Location: Portland
+Position Type: Web - Front End
+Core Competency: Ruby
+, 
+ID: 5
+Name: Full Stack Engineer
+Employer: Splitwise
+Location: Rhode Island
+Position Type: Web - Full Stack
+Core Competency: Ruby
+, 
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+        Attribute = columns
+            value = {all=All, positionType=Position Type, employer=Employer, coreCompetency=Skill, location=Location}
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with null: ruby</title>
+</head>
+<body>
+
+<--! displays search results & renders the form -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Null: Ruby</h1>
+
+    <form action="/search/results" method="post">
+        <h2>Search by:</h2>
+
+        <p>
+            <span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="all"
+                        value="all" checked="checked"/>
+                <label for="all">All</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="positionType"
+                        value="positionType"/>
+                <label for="positionType">Position Type</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="employer"
+                        value="employer"/>
+                <label for="employer">Employer</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="coreCompetency"
+                        value="coreCompetency"/>
+                <label for="coreCompetency">Skill</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="location"
+                        value="location"/>
+                <label for="location">Location</label>
+            </span>
+
+        </p>
+
+        <p>
+            <label for="searchTerm">Keyword:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </p>
+
+        <input type="submit" value="Search"/>
+    </form>
+
+    <hr/>
+
+
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+
+
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Junior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Cozy</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Portland</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Full Stack Engineer</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Splitwise</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Full Stack</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby</td>
+            </tr>
+    </table><table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /search/results
+       Parameters = {searchType=[location], searchTerm=[new york]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.SearchController
+           Method = org.launchcode.techjobs.mvc.controllers.SearchController#displaySearchResults(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = search
+             View = null
+        Attribute = title
+            value = Jobs with Location: new york
+        Attribute = jobs
+            value = [
+ID: 78
+Name: QA Analyst
+Employer: Bandcamp
+Location: New York
+Position Type: Other
+Core Competency: Ruby, JavaScript
+]
+        Attribute = columns
+            value = {all=All, positionType=Position Type, employer=Employer, coreCompetency=Skill, location=Location}
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Location: new york</title>
+</head>
+<body>
+
+<--! displays search results & renders the form -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Location: New York</h1>
+
+    <form action="/search/results" method="post">
+        <h2>Search by:</h2>
+
+        <p>
+            <span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="all"
+                        value="all" checked="checked"/>
+                <label for="all">All</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="positionType"
+                        value="positionType"/>
+                <label for="positionType">Position Type</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="employer"
+                        value="employer"/>
+                <label for="employer">Employer</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="coreCompetency"
+                        value="coreCompetency"/>
+                <label for="coreCompetency">Skill</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="location"
+                        value="location"/>
+                <label for="location">Location</label>
+            </span>
+
+        </p>
+
+        <p>
+            <label for="searchTerm">Keyword:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </p>
+
+        <input type="submit" value="Search"/>
+    </form>
+
+    <hr/>
+
+
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+
+
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>QA Analyst</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Bandcamp</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Other</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Ruby, JavaScript</td>
+            </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /search/results
+       Parameters = {searchType=[employer], searchTerm=[equifax]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = org.launchcode.techjobs.mvc.controllers.SearchController
+           Method = org.launchcode.techjobs.mvc.controllers.SearchController#displaySearchResults(Model, String, String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = search
+             View = null
+        Attribute = title
+            value = Jobs with Employer: equifax
+        Attribute = jobs
+            value = [
+ID: 60
+Name: Java Dev
+Employer: Equifax
+Location: Saint Louis
+Position Type: Web - Front End
+Core Competency: Java
+]
+        Attribute = columns
+            value = {all=All, positionType=Position Type, employer=Employer, coreCompetency=Skill, location=Location}
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Bootstrap stylesheets and script -->
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/techjobs.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+    <title>TechJobs :: Jobs with Employer: equifax</title>
+</head>
+<body>
+
+<--! displays search results & renders the form -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJobs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/search">Search</a></li>
+                <li><a href="/list">List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container body-content">
+
+    <h1>Jobs With Employer: Equifax</h1>
+
+    <form action="/search/results" method="post">
+        <h2>Search by:</h2>
+
+        <p>
+            <span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="all"
+                        value="all" checked="checked"/>
+                <label for="all">All</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="positionType"
+                        value="positionType"/>
+                <label for="positionType">Position Type</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="employer"
+                        value="employer"/>
+                <label for="employer">Employer</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="coreCompetency"
+                        value="coreCompetency"/>
+                <label for="coreCompetency">Skill</label>
+            </span><span>
+                <input
+                        type="radio"
+                        name="searchType"
+                        id="location"
+                        value="location"/>
+                <label for="location">Location</label>
+            </span>
+
+        </p>
+
+        <p>
+            <label for="searchTerm">Keyword:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </p>
+
+        <input type="submit" value="Search"/>
+    </form>
+
+    <hr/>
+
+
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+
+
+<table class="job-listing" rel="stylesheet">
+            <tr>
+                <td>ID</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Java Dev</td>
+            </tr>
+            <tr>
+                <td>Employer</td>
+                <td>Equifax</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Saint Louis</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Web - Front End</td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td>Java</td>
+            </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+[Fatal Error] :14:2: The content of elements must consist of well-formed character data or markup.
+]]></system-err>
+</testsuite>
